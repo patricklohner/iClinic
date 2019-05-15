@@ -4,7 +4,7 @@ import Cabecalho from '../components/header';
 const Index = () => {
   return (
     <Cabecalho>
-        <h1>Index.js</h1>
+        <h1>Home</h1>
     </Cabecalho>
   );
 };
