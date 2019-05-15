@@ -1,0 +1,11 @@
+version: "3"
+services:
+    api:
+        image: webapp-api
+        build: .
+        command: npm start
+        restart: always
+        ports:
+            - "3000:3000"
+        volumes:
+            - .:/iclinic
